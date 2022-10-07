@@ -1,0 +1,14 @@
+.devices {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	padding: 10px 0;
+}
+.noComputers {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 60px;
+	font-size: 38px;
+	font-weight: bold;
+}

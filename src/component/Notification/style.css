@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+.notifications .notification {
+	display: flex;
+	height: 70px;
+	width: 100%;
+	overflow: hidden;
+	flex: 0 0 auto;
+	border: 1px solid #000;
+	border-radius: 0.375rem;
+}
+.notifications .notification.seen {
+	opacity: 0.7;
+}
+
+.notifications .notification i {
+	color: white;
+}
+.notifications .notification .deviceId {
+	height: 100%;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+	border-right: 1px solid #000;
+}
+.notifications .notification .deviceInfo {
+	border-right: 1px solid #000;
+
+	padding: 0 0 0 10px;
+	width: 60%;
+}
+.notifications .notification .deviceInfo > * {
+	height: 50%;
+	display: flex;
+	align-items: center;
+}
+.notifications .notification .deviceInfo .name {
+	font-family: "Anton", sans-serif;
+	font-size: 25px;
+}
+.notifications .notification .deviceInfo .date {
+	font-family: "Iceland", cursive;
+	font-size: 18px;
+	opacity: 0.6;
+}
+
+.notifications .notification .notificationActions {
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	gap: 5px;
+}
+.notifications .notification .notificationActions .btn {
+	padding: 0;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

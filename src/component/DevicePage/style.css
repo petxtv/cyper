@@ -1,0 +1,16 @@
+.devicePage {
+	flex-direction: column;
+	height: auto;
+	align-items: flex-start;
+	gap: 50px;
+}
+.devicePage .deviceTop {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	height: 60px;
+}
+.devicePage .device-bottom {
+	width: 100%;
+}

@@ -1,0 +1,18 @@
+.modal .modal-content {
+	border: 1px solid black;
+}
+.modal .modal-header,
+.modal .modal-footer {
+	background-color: #212529;
+}
+
+.modal .modal-header {
+	border-bottom: 1px solid black;
+}
+.modal .modal-footer {
+	border-top: 1px solid black;
+}
+
+.modal .modal-body {
+	background-color: #242526;
+}

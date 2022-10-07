@@ -1,0 +1,39 @@
+.device {
+	display: flex;
+	align-items: center;
+	background: #242526;
+	padding: 20px;
+	border-radius: 5px;
+	height: 80px;
+	transition: 0.3s all ease-in-out;
+	overflow: hidden;
+	gap: 10px;
+}
+.device.show {
+	height: 200px;
+}
+
+.device .deviceId {
+	height: 100%;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+}
+.device .userName,
+.device .price,
+.device .title {
+	font-family: "Anton", sans-serif;
+	font-size: 25px;
+}
+
+.device .duration {
+	font-family: "Anton", sans-serif;
+	font-size: 38px;
+	color: #40d940;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
